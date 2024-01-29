@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.mainDiv{
+    /* height: 200px; */
+    width: 600px;
+    margin: auto;
+    background-color: rgb(18, 62, 62);
+    border-radius: 20px;
+}
+.copyBtn{
+    background-color: blue;
+    font-size: 22px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius:20px ;
+}
+.copyBtn:hover{
+    
+    background-color: rgb(104, 104, 176);
+}
+.input{
+    height:2rem ;
+}
